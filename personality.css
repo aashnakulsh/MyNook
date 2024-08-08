@@ -1,0 +1,264 @@
+@import url('https://fonts.bunny.net/css?family=aclonica:400');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&family=Alumni+Sans+Inline+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;0,900;1,500&family=Alumni+Sans+Inline+One&display=swap');
+
+
+
+
+
+/* STYLE SECTIONING TAGS */
+body {
+  margin: 0;
+  background: linear-gradient(83deg, #FBF2D4 53%, #DFD3AB 47%);
+}
+
+header {
+    text-align: center;
+    padding: 1em 3em 3em 3em; 
+}
+
+img{
+  border: black 2px solid;
+}
+
+
+/* STYLE TEXT */
+h1 {
+font-family: 'Alegreya Sans SC', sans-serif;
+  color: black;
+  font-size: 4em;
+}
+
+h2 {
+  text-align: center;
+  padding: 1em;
+  font-size: 2em;
+  font-family:'aclonica', Sans-Serif;
+}
+
+h3{
+  text-align: center;
+  font-size: 2em;
+  font-family:'aclonica', Sans-Serif;
+
+}
+
+p{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+strong{
+  font-weight: 900;
+}
+
+
+
+.results {
+  padding: 5em;
+  padding-top: 3em;
+  background: linear-gradient(-160deg, #9188B0 53%, #B1ABC6 47%);
+}
+
+.q1 {
+  padding: 5em;
+  padding-top: 3em;
+  background: linear-gradient(160deg, #CD98B6 70%, #BA759C 30%);
+}
+
+.q2 {
+  padding: 5em;
+  padding-top: 3em;
+  background: linear-gradient(43deg, #FFC4BE 50%, #FFDBD7 50%);
+}
+
+.q3 {
+  padding: 5em;
+  padding-top: 3em;
+  background: linear-gradient(148deg, #9E80AA 70%, #B9A5C2 30%);
+}
+
+.q4 {
+  padding: 5em;
+  padding-top: 3em;
+  background: linear-gradient(84deg, #FBE8D4 70%, #D0B598 30%);
+}
+
+.q5 {
+  padding: 5em;
+  padding-top: 3em;
+  background: linear-gradient(-15deg, #AD716B 55%, #D09D98 45%);
+}
+
+
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  width: 850px;
+  margin: 0px auto;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px auto;
+  width: 240px;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+
+
+
+/* STYLE BUTTON */
+button {
+  margin-top: 5px;
+  justify-content: center;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid #4B6388;
+  box-sizing: border-box;
+  color: #4B6388;
+  cursor: pointer;
+  fill: #000;
+  font-family:'aclonica', Sans-Serif;
+  font-size: 15px;
+  font-weight: 300;
+  height: 55px;
+  width: 240px;
+  line-height: 17px;
+  outline: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+button:hover {
+  border-color: #4B6388;
+  color: #4B6388;
+  background-color: #c4cbcf;
+  fill: black;
+}
+
+button:active {
+  border-color: #4B6388;
+  color: #4B6388;
+  background-color: #7A95A2;
+  fill: black;
+}
+
+
+#imgresult{
+  height: 0px;
+  opacity: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#restartButton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+}
+
+#result2 {
+  font-size: 1.75em;
+  line-height: 40px;
+}
+
+#result3 {
+  font-size: 1.6em;
+  line-height: 40px;
+}
+
+
+
+
+/* STYLE NAV BAR */
+
+nav ul{
+  list-style-type: none;
+
+  background: linear-gradient(to left, #689a9c, #38726C);
+  
+/*   background: linear-gradient(150deg, #38726C 50%, #945D5E 20%);
+ */
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: right;
+/*   border-bottom: 3px #945D5E solid;
+ */
+  border-bottom: 1px solid black;
+  position: relative;
+    
+}
+
+nav li{
+  display: inline;
+    color: #f5e6dc;
+
+}
+
+nav li a{
+  text-decoration: none;
+  color: #f5e6dc;
+  font-size: 26px;
+  margin: 0 auto;
+  padding: 25px;
+  font-weight: 500;
+	font-family: Monaco,Consolas,Lucida Console,monospace; 
+  font-variant: small-caps;
+}
+
+nav li a:hover{
+  color: #c9ad9d;
+   
+}
+
+.navheader{
+text-decoration: none;
+  color: #f5e6dc;
+  font-size: 35px;
+  font-weight: 500;
+	font-family: Monaco,Consolas,Lucida Console,monospace; 
+  font-variant: small-caps;
+
+  position: absolute;
+  left:5%;
+  top:25%;
+}
+
+footer {
+  background: linear-gradient(to right, #689a9c, #38726C);
+  border: 1px black solid;
+  height: 100px;
+  width: 100%;
+
+  text-align: center;
+  margin-top: auto;
+  
+}
+
+h5{
+	font-family: Monaco,Consolas,Lucida Console,monospace; 
+  font-variant: small-caps;
+  color: #E8d5c9;
+  font-size: 1.5em;
+  font-weight: 500;
+}
